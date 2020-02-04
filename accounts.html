@@ -95,6 +95,7 @@
         <!--CATEGORIES-->
 
         <!--Accounts Graph-->
+        <script src="./js/moment.js"></script>
         <script src="./js/Chart.js"></script>
         <canvas id="myChart"></canvas>
 <script>
@@ -102,7 +103,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: ['Mar', 'Apr', 'May', 'June', 'July', 'August'],
         datasets: [{
             label: '# of Votes',
             data: [12, 19, 3, 5, 2, 3],
