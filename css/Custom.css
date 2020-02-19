@@ -1,7 +1,18 @@
+body{
+    background-color:#edf0f5;
+}
+
 h1{
-    color: goldenrod;
+    color: teal;
+    text-align: center;
 }
 
 .navbar{
 background-color:teal;
+}
+
+#slogan{
+    color:goldenrod;
+    text-align: center;
+    font-size: large;
 }
