@@ -25,3 +25,8 @@ background-color:teal;
 .section-header{
 	font-family: 'Montserrat', sans-serif;
 }
+
+.card-color{
+	background-color: Gainsboro;
+    color: teal;
+}

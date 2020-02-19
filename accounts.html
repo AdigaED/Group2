@@ -57,44 +57,46 @@
         <!--CATEGORIES-->
 
         <div class="container">
-        	<div>
-        	<h3>Accounts Summary</h3>
+        	<div class="section-header">
+            <h3>Accounts Summary</h3>
         </div>
         	<div class="row">
-        		
-        		
         		<div class="col">
         			<div class="card" style="width: 12rem;"> 
-					  <div class="card-body" >
-					    <h5 class="card-title">700,000ugx</h5>
-					    <p class="card-text">Revenue</p>
-					    <a href="#" class="btn btn-primary invisible">Click here</a>
+					  <div class="card-body card-color" >
+                        <h4 class="card-title"><b>700,000ugx</b></h4>
+					    <h5 class="card-text">Revenue</h5>
+					    
 					  </div>
 					</div>        			
         		</div>
         		<div class="col">
         			<div class="card" style="width: 12rem;"> 
-					  <div class="card-body" >
-					    <h5 class="card-title">450,000ugx</h5>
-					    <p class="card-text">Expenses</p>
-					    <a href="#" class="btn btn-primary invisible" >Click here</a>
+					  <div class="card-body card-color" >
+                        <h4 class="card-title"><b>450,000ugx</b></h4>
+					    <h5 class="card-text">Expenses</h5>
+					    
 					  </div>
 					</div>        			
         		</div>
         		<div class="col">
         			<div class="card" style="width: 12rem;"> 
-					  <div class="card-body" >
-					    <h5 class="card-title">250,000ugx</h5>
-					    <p class="card-text">Profit</p>
-					    <a href="#" class="btn btn-primary invisible">Click here</a>
+					  <div class="card-body card-color" >
+					    <h4 class="card-title"><b>250,000ugx</b></h4>
+					    <h5 class="card-text">Profit</h5>
+					    
 					  </div>
 					</div>        			
         		</div>
         		
         </div>
+        <hr>
         <!--CATEGORIES-->
 
         <!--Accounts Graph-->
+        <div class="section-header mt-4">
+            <h3>Profit Graph</h3>
+        </div>
         <script src="./js/moment.js"></script>
         <script src="./js/Chart.js"></script>
         <canvas id="myChart"></canvas>
@@ -105,7 +107,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ['Mar', 'Apr', 'May', 'June', 'July', 'August'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Profits per Month',
             data: [12, 19, 3, 5, 2, 3],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -123,7 +125,7 @@ var myChart = new Chart(ctx, {
                 'rgba(153, 102, 255, 1)',
                 'rgba(255, 159, 64, 1)'
             ],
-            borderWidth: 1
+            borderWidth: 3
         }]
     },
     options: {
