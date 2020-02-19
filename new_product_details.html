@@ -130,17 +130,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADD NEW PRODUCT</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/Custom.css">
 </head>
 <body>
     <div container>
        
-        <div class="row">
-           
-            <div class="col bg-info mt-auto text-left display-3 font-family-trabuset text-uppercase">logo</div>
-            
-        </div>
+        <!--NAVBAR CODE HAS BEEN TRANSFERED to header.html-->
+
+      <div w3-include-html="./header.html"></div> 
+
+
         <div class="col display-4 text-uppercase text-center mx-auto pt-3 pb-3 ">
-            <strong>new product detailes</strong></div>
+            <strong>new product details</strong></div>
             <section>
                 <div class="container-fluid ">
                    
@@ -190,6 +191,7 @@
                   </div>
               </section> 
       </div>
-                        
+          <!-- SCRIPT TO PULL NAVBAR INTO THE PAGE -->
+    <script src="./js/includeHTML.js"></script>              
    </body>
 </html>
