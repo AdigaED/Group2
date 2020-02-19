@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 body{
     background-color:#edf0f5;
 }
@@ -15,4 +16,28 @@ background-color:teal;
     color:goldenrod;
     text-align: center;
     font-size: large;
+}
+
+/*Styling the inventory page cards*/
+.card-horizontal {
+    display: flex;
+    background-color: Gainsboro;
+    color: teal;
+    /*flex: 1 1 auto;*/
+}
+
+/*Font Awesome icons color*/
+.fa{
+    color: teal;
+}
+
+/*Styling header section on the accounts page*/
+.section-header{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Styling financial summary card details on the accounts page*/
+.card-color{
+    background-color: Gainsboro;
+    color: teal;
 }
